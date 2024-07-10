@@ -1,0 +1,35 @@
+{
+  "name": "teste_ios",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:unit": "vitest",
+    "ionic:build": "npm run build",
+    "ionic:serve": "npm run dev"
+  },
+  "dependencies": {
+    "@capacitor/android": "6.1.0",
+    "@capacitor/app": "6.0.0",
+    "@capacitor/cli": "6.1.0",
+    "@capacitor/core": "6.1.0",
+    "@capacitor/haptics": "6.0.0",
+    "@capacitor/ios": "6.1.0",
+    "@capacitor/keyboard": "6.0.1",
+    "@capacitor/status-bar": "6.0.0",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.29",
+    "vue-router": "^4.3.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vitejs/plugin-vue-jsx": "^4.0.0",
+    "@vue/test-utils": "^2.4.6",
+    "jsdom": "^24.1.0",
+    "vite": "^5.3.1",
+    "vitest": "^1.6.0"
+  }
+}

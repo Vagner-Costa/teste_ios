@@ -1,0 +1,7 @@
+{
+  "name": "teste_ios",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}
